@@ -1,9 +1,9 @@
-# ⚔️ RPG – Missões com Herança, Encapsulamento e Enum
+⚔️ RPG – Missões com Herança, Encapsulamento e Enum (readme.md feito com o claude IA)
 
 Trabalho avaliativo de **Tecnologia de Orientação a Objetos (TOO) – 2026/1**.
 O projeto evolui a classe `Missao` do RPG feito em aula: atributos protegidos, status controlado por `Enum` e três tipos de missão que pagam XP ao herói.
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 TOO_2026_1_Trabalho_JuliaNatali/TOO_2026_1_Julia_Natali/
@@ -18,7 +18,7 @@ TOO_2026_1_Trabalho_JuliaNatali/TOO_2026_1_Julia_Natali/
     └── missao_exploracao.py     # MissaoExploracao
 ```
 
-## ✅ O que foi implementado
+## O que foi implementado
 
 | Parte | Descrição |
 |---|---|
@@ -28,7 +28,7 @@ TOO_2026_1_Trabalho_JuliaNatali/TOO_2026_1_Julia_Natali/
 | 4 – XP ao herói | `concluir_missao(heroi)` muda o status para CONCLUIDA **antes** de pagar a recompensa via `ganhar_experiencia()`. |
 | 5 – Demonstração | `main.py` percorre a lista de missões, sobe o herói de nível e trata erros com `try/except`. |
 
-### 🎯 Tipos de missão
+### Tipos de missão
 
 | Missão | Atributo próprio | Bônus |
 |---|---|---|
@@ -38,14 +38,14 @@ TOO_2026_1_Trabalho_JuliaNatali/TOO_2026_1_Julia_Natali/
 
 Exemplo: caça com recompensa base 100 e 5 inimigos → **150** XP quando concluída e **0** enquanto pendente ou em andamento.
 
-## ▶️ Como executar
+## Como executar
 
 ```bash
 cd TOO_2026_1_Trabalho_JuliaNatali/TOO_2026_1_Julia_Natali
 python main.py
 ```
 
-## 🧪 Resultado da execução
+## Resultado da execução
 
 ```text
  Recompensa de cada missão
